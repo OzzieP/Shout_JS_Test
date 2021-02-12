@@ -4,6 +4,6 @@ function sendToApiConst() {
 
 QUnit.module('sendToApiConst',function() {
   QUnit.test('function', function(assert) {
-    assert.equal(true, true, true)
+    assert.equal(false, true, true)
   });
 });
