@@ -1,4 +1,6 @@
-const sendToApiConst = () => true;
+function sendToApiConst() {
+  return true;
+}
 
 QUnit.module('sendToApiConst',function() {
   QUnit.test('function', function(assert) {
